@@ -71,4 +71,7 @@
   <ItemGroup>
     <RefactorLog Include="TF_202506_FSDevDotNet2.ADO.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
+  </ItemGroup>
 </Project>
