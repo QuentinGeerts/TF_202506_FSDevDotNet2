@@ -57,9 +57,14 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\User.sql" />
     <Build Include="Tables\Task.sql" />
+    <Build Include="Views\V_Active_User.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="TF_202506_FSDevDotNet2.ADO.refactorlog" />
   </ItemGroup>
 </Project>
